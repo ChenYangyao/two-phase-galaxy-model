@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="500px" src="site-info/logo-small.png"/>
+  <img width="512px" src="https://raw.githubusercontent.com/ChenYangyao/two-phase-galaxy-model/master/site-info/logo-small.png"/>
 </div>
 
 # two-phase-galaxy-model
