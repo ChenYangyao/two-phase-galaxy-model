@@ -1,3 +1,7 @@
+<div align="center">
+  <img width="500px" src="site-info/logo-small.png"/>
+</div>
+
 # two-phase-galaxy-model
 
 A two-phase model of galaxy formation presented in the following papers:
