@@ -2,15 +2,20 @@
   <img width="400px" src="https://raw.githubusercontent.com/ChenYangyao/two-phase-galaxy-model/master/site-info/logo-small.png"/>
 </div>
 
-# two-phase-galaxy-model
+# Two Phase Galaxy Model
 
-A two-phase model of galaxy formation presented in the following papers:
+A two-phase model of galaxy formation and supermassive black hole (SMBH) growth.
 
-- A two-phase model of galaxy formation: I. The growth of galaxies and supermassive black holes ([arxiv](https://arxiv.org/abs/2311.05030), [ads](https://ui.adsabs.harvard.edu/abs/2023arXiv231105030M/abstract)).
+## Publications
 
-## Table of Contents
+- (Paper-I) A two-phase model of galaxy formation: I. The growth of galaxies and supermassive black holes. *Houjun Mo, Yangyao Chen, and Huiyuan Wang, 2023* ([arxiv](https://arxiv.org/abs/2311.05030), [ads](https://ui.adsabs.harvard.edu/abs/arXiv:2311.05030)).
+- (Paper-II) A two-phase model of galaxy formation: II. The size-mass relation of dynamically hot galaxies.
+*Yangyao Chen, Houjun Mo, and Huiyuan Wang, 2023* ([arxiv](https://arxiv.org/abs/2311.11713),[ads](https://ui.adsabs.harvard.edu/abs/arXiv:2311.11713)).
 
-- Supplementary material for Paper-I: [figures](publications) in the pdf format.
+## Supplementary Material of the Publications
+
+- Paper-I: [figures](publications/Paper-I/figures) in the pdf format.
+- Paper-II: [figures](publications/Paper-II/figures) in the pdf format.
 
 ## TODO List
 
@@ -20,12 +25,16 @@ A two-phase model of galaxy formation presented in the following papers:
 
 ## Acknowledgements
 
+Here we acknowledge the following projects and/or people that helped in the development of 
+this code repository. Projects and/or people that are relevant to individual papers
+were included in the papers.
+
+Yangyao thanks [Kai Wang](https://www.kosmoswalker.com/) for his enduring 
+companionship and support :wink:.
+
 The empirical model 
 [UniverseMachine](https://bitbucket.org/pbehroozi/universemachine/src/main/) for halo-galaxy connection,
 and [TRINITY](https://github.com/HaowenZhang/TRINITY) for halo-galaxy-SMBH coevolution,
 have inspired our work for model design and implementation. Their comprehensive
 collection of observational datasets also helps us for model calibration and
 comparison.
-
-Yangyao thanks [Kai Wang](https://www.kosmoswalker.com/) for his enduring 
-companionship and support :wink:.
