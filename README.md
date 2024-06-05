@@ -4,7 +4,7 @@
 
 # Two Phase Galaxy Model
 
-A two-phase model of galaxy formation and supermassive black hole (SMBH) growth.
+A two-phase scenario of galaxy formation and its semi-analytic implementation.
 
 ## Publications
 
@@ -12,6 +12,16 @@ A two-phase model of galaxy formation and supermassive black hole (SMBH) growth.
 - (Paper-II) A two-phase model of galaxy formation: II. The size-mass relation of dynamically hot galaxies.
 *Yangyao Chen, Houjun Mo, and Huiyuan Wang, 2023* ([arxiv](https://arxiv.org/abs/2311.11713), [ads](https://ui.adsabs.harvard.edu/abs/arXiv:2311.11713)).
 - (Paper-III) A two-phase model of galaxy formation: III. The formation of globular clusters. *Yangyao Chen, Houjun Mo, and Huiyuan Wang, 2024* ([arxiv](http://arxiv.org/abs/2405.18735), [ads](https://ui.adsabs.harvard.edu/abs/arXiv:2405.18735)).
+
+## Highlights
+
+### Cosmic structures traced by GC clustering over > 7 orders of magnitude in spatial extent.
+
+<div align="center">
+  <img width="850px" src="https://raw.githubusercontent.com/ChenYangyao/two-phase-galaxy-model/master/site-info/highlights/tpcf.jpg"/>
+  <div>Figure 1 of Paper-III. Two-point auto-correlation functions of 
+        GCs at z=0 predicted by the model in this paper.</div>
+</div>
 
 ## Supplementary Material of the Publications
 
