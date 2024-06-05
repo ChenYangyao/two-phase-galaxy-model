@@ -15,11 +15,51 @@ A two-phase scenario of galaxy formation and its semi-analytic implementation.
 
 ## Highlights
 
+### The phase diagram of galaxy formation and morphology transformation.
+
+<div align="center">
+  <img width="550px" src="https://raw.githubusercontent.com/ChenYangyao/two-phase-galaxy-model/master/site-info/highlights/phase-space-diagram.jpg"/>
+  <div>See Paper-I. The quadrant diagram showing four combinations of 
+    halo assembly rate and the importance of angular momentum in supporting gas.</div>
+</div>
+
+### The formation of dynamically hot systems (bulges, ellipticals, etc.)
+
+<div align="center">
+  <img width="550px" src="https://raw.githubusercontent.com/ChenYangyao/two-phase-galaxy-model/master/site-info/highlights/dynamical-hot-stage.jpg"/>
+  <div>See Paper-I. The formation of dynamically hot gas/stellar system in the fast stage of dark matter halo. </div>
+</div>
+
+### A angular-momentum-limited scenario of SMBH growth
+
+<div align="center">
+  <img width="550px" src="https://raw.githubusercontent.com/ChenYangyao/two-phase-galaxy-model/master/site-info/highlights/smbh-growth-am.jpg"/>
+  <div>See Paper-I. A schematic diagram showing the distribution of specific angular momentum (sAM)
+        for gas clouds within a halo. The turbulent motion of gas clouds, 
+        driven by fast accretion, yields a broad and uniform distribution 
+        (red curve) of sAM. The fraction of gas accreted by the 
+        SMBH (gray shaded area) is determined by the maximum capturing 
+        angular momentum. Subsequently, as the driving force of
+        turbulent motion diminishes, gas mixing becomes significant, 
+        leading to the emergence of an angular momentum barrier and 
+        preventing gas accretion (blue curve). This diagram shows the 
+        mechanism underlying the formation of dynamically hot systems, 
+        the accretion scenario of SMBH within turbulent gas clouds, 
+        and the transition to dynamically cold systems. </div>
+</div>
+
+### The two-channels of GC formation
+
+<div align="center">
+  <img width="850px" src="https://raw.githubusercontent.com/ChenYangyao/two-phase-galaxy-model/master/site-info/highlights/gc-channels.jpg"/>
+  <div>See Paper-III. The criteria for the formation of Pop-I (red, metal-rich) and Pop-II (blue, metal-poor) GCs. </div>
+</div>
+
 ### Cosmic structures traced by GC clustering over > 7 orders of magnitude in spatial extent.
 
 <div align="center">
   <img width="850px" src="https://raw.githubusercontent.com/ChenYangyao/two-phase-galaxy-model/master/site-info/highlights/tpcf.jpg"/>
-  <div>Figure 1 of Paper-III. Two-point auto-correlation functions of 
+  <div>See Paper-III. Two-point auto-correlation functions of 
         GCs at z=0 predicted by the model in this paper.</div>
 </div>
 
