@@ -93,3 +93,7 @@ comparison.
 
 The SAM of Yingtian Chen, Oleg Y. Gnedin et al. ([source code](https://github.com/ybillchen/GC_formation_model)) 
 and the [catalog](https://github.com/ognedin/gc_model_mw) produced by the model have been used for comparison of our model.
+
+The Tsinghua Astrophysics High-Performance Computing platform has been
+providing the computational and data storage resources throughout the 
+career development of Yangyao.
