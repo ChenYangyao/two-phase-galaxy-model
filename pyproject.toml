@@ -8,7 +8,7 @@ version = "0.0.1"
 authors = [
   { name="Yangyao Chen", email="yangyaochen.astro@foxmail.com" },
 ]
-description = "A two phase model of galaxy formation"
+description = "A Two-Phase Scenario of Galaxy Formation"
 readme = "README.md"
 requires-python = ">=3.11"
 classifiers = [

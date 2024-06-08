@@ -2,7 +2,7 @@
   <img width="400px" src="https://raw.githubusercontent.com/ChenYangyao/two-phase-galaxy-model/master/site-info/logo-small.png"/>
 </div>
 
-# TwoPhaseGalaxyModel - a Two-phase Scenario of Galaxy Formation
+# TwoPhaseGalaxyModel - a Two-Phase Scenario of Galaxy Formation
 
 [![Last commit](https://img.shields.io/github/last-commit/ChenYangyao/two-phase-galaxy-model/master)](https://github.com/ChenYangyao/two-phase-galaxy-model/commits/master)
 [![Workflow Status](https://img.shields.io/github/actions/workflow/status/ChenYangyao/two-phase-galaxy-model/run-test.yml)](https://github.com/ChenYangyao/two-phase-galaxy-model/actions/workflows/run-test.yml)
