@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "two-phase-galaxy-model"
+version = "0.0.1"
+authors = [
+  { name="Yangyao Chen", email="yangyaochen.astro@foxmail.com" },
+]
+description = "A two phase model of galaxy formation"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pyhipp", "pyhipp-sims", "pytest>=7.0.0", "flake8"
+]
+
+[project.urls]
+Repository = "https://github.com/ChenYangyao/two-phase-galaxy-model.git"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = [
+  ".", "src"
+]

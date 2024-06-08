@@ -2,78 +2,102 @@
   <img width="400px" src="https://raw.githubusercontent.com/ChenYangyao/two-phase-galaxy-model/master/site-info/logo-small.png"/>
 </div>
 
-# Two Phase Galaxy Model
+# TwoPhaseGalaxyModel - a Two-phase Scenario of Galaxy Formation
 
-A two-phase scenario of galaxy formation and its semi-analytic implementation.
+[![Last commit](https://img.shields.io/github/last-commit/ChenYangyao/two-phase-galaxy-model/master)](https://github.com/ChenYangyao/two-phase-galaxy-model/commits/master)
+[![Workflow Status](https://img.shields.io/github/actions/workflow/status/ChenYangyao/two-phase-galaxy-model/run-test.yml)](https://github.com/ChenYangyao/two-phase-galaxy-model/actions/workflows/run-test.yml)
+[![MIT License](https://img.shields.io/badge/License-MIT-blue)](https://github.com/ChenYangyao/two-phase-galaxy-model/blob/master/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/two-phase-galaxy-model)](https://pypi.org/project/two-phase-galaxy-model/)
+
+
+This repository contains the code of the semi-analytic implementation of the TwoPhaseGalaxyModel. All data and figures in the publications are also included in the repository.
+
+## Installation
+
+To install, run:
+```bash
+pip install two-phase-galaxy-model
+```
+All the dependencies will be installed automatically. Alternatively, you can clone the repository and install the package locally via `pip install -e /path/to/the/repo`.
+
+## Usage 
+
+To use the API in your Python project, import the package by:
+```python
+import two_phase_galaxy_model as tpgm
+```
+and then work with it.
+
+Examples can be found in the Jupyter notebooks under `docs/`:
+- [star_cluster_model.ipynb](docs/star_cluster_model.ipynb): demonstrates how to define a dark-matter-only subhalo merger tree, pass it to the model, and get the list of galaxies and star clusters.
 
 ## Publications
+
+### List of publications
 
 - (Paper-I) A two-phase model of galaxy formation: I. The growth of galaxies and supermassive black holes. *Houjun Mo, Yangyao Chen, and Huiyuan Wang, 2023* ([arxiv](https://arxiv.org/abs/2311.05030), [ads](https://ui.adsabs.harvard.edu/abs/arXiv:2311.05030)).
 - (Paper-II) A two-phase model of galaxy formation: II. The size-mass relation of dynamically hot galaxies.
 *Yangyao Chen, Houjun Mo, and Huiyuan Wang, 2023* ([arxiv](https://arxiv.org/abs/2311.11713), [ads](https://ui.adsabs.harvard.edu/abs/arXiv:2311.11713)).
 - (Paper-III) A two-phase model of galaxy formation: III. The formation of globular clusters. *Yangyao Chen, Houjun Mo, and Huiyuan Wang, 2024* ([arxiv](http://arxiv.org/abs/2405.18735), [ads](https://ui.adsabs.harvard.edu/abs/arXiv:2405.18735)).
 
-## Highlights
-
-### The phase diagram of galaxy formation and morphology transformation
-
-<div align="center">
-  <img width="500px" src="https://raw.githubusercontent.com/ChenYangyao/two-phase-galaxy-model/master/site-info/highlights/phase-space-diagram.jpg"/>
-  <div>See Paper-I. The quadrant diagram showing four combinations of 
-    halo assembly rate and the importance of angular momentum in supporting gas.</div>
-</div>
-
-### The formation of dynamically hot systems (bulges, ellipticals, etc.)
-
-<div align="center">
-  <img width="500px" src="https://raw.githubusercontent.com/ChenYangyao/two-phase-galaxy-model/master/site-info/highlights/dynamical-hot-stage.jpg"/>
-  <div>See Paper-I. The formation of dynamically hot gas/stellar system in the fast stage of dark matter halo. </div>
-</div>
-
-### A angular-momentum-limited scenario of SMBH growth
-
-<div align="center">
-  <img width="500px" src="https://raw.githubusercontent.com/ChenYangyao/two-phase-galaxy-model/master/site-info/highlights/smbh-growth-am.jpg"/>
-  <div align="left">See Paper-I. A schematic diagram showing the distribution of specific angular momentum (sAM)
-        for gas clouds within a halo. The turbulent motion of gas clouds, 
-        driven by fast accretion, yields a broad and uniform distribution 
-        (red curve) of sAM. The fraction of gas accreted by the 
-        SMBH (gray shaded area) is determined by the maximum capturing 
-        angular momentum. Subsequently, as the driving force of
-        turbulent motion diminishes, gas mixing becomes significant, 
-        leading to the emergence of an angular momentum barrier and 
-        preventing gas accretion (blue curve). This diagram shows the 
-        mechanism underlying the formation of dynamically hot systems, 
-        the accretion scenario of SMBH within turbulent gas clouds, 
-        and the transition to dynamically cold systems. </div>
-</div>
-
-### The two-channels of GC formation
-
-<div align="center">
-  <img width="800px" src="https://raw.githubusercontent.com/ChenYangyao/two-phase-galaxy-model/master/site-info/highlights/gc-channels.jpg"/>
-  <div>See Paper-III. The criteria for the formation of Pop-I (red, metal-rich) and Pop-II (blue, metal-poor) GCs. </div>
-</div>
-
-### Cosmic structures traced by GC clustering over > 7 orders of magnitude in spatial extent.
-
-<div align="center">
-  <img width="800px" src="https://raw.githubusercontent.com/ChenYangyao/two-phase-galaxy-model/master/site-info/highlights/tpcf.jpg"/>
-  <div>See Paper-III. Two-point auto-correlation functions of 
-        GCs at z=0 predicted by the model in this paper.</div>
-</div>
-
-## Supplementary Material of the Publications
+### Supplementary Material
 
 - Paper-I: [figures](publications/Paper-I/figures) in the pdf format.
 - Paper-II: [figures](publications/Paper-II/figures) in the pdf format.
 - Paper-III: [figures](publications/Paper-III/figures) in the pdf format.
 
-## TODO List
+## Research Highlights
 
-- Code for the model. Documentation and code samples.
-- Raw data for figures.
-- Catalogs of halo assembly histories and modeled galaxies/SMBHs. 
+<div align="center" style="margin-top: 25px;">
+    <div align="middle" style="display: flex; justify-content: center; gap: 4%" >
+      <img width="28%px" src="https://raw.githubusercontent.com/ChenYangyao/two-phase-galaxy-model/master/site-info/highlights/phase-space-diagram.jpg"/>      
+      <img width="28%px" src="https://raw.githubusercontent.com/ChenYangyao/two-phase-galaxy-model/master/site-info/highlights/dynamical-hot-stage.jpg"/>
+      <img width="28%px" src="https://raw.githubusercontent.com/ChenYangyao/two-phase-galaxy-model/master/site-info/highlights/smbh-growth-am.jpg"/>
+    </div>
+    <div style="margin: 3px 10%; padding: 5px 0; background-color: rgba(0, 136, 255, 0.1);">
+      <div> <strong>The phase diagram of galaxy formation and SMBH growth</strong> </div>
+      <div>
+        <strong>Left</strong>: The quadrant diagram showing four combinations of 
+          halo assembly rate and the importance of angular momentum in supporting gas.
+        <strong>Center</strong>: The formation of dynamically hot gas/stellar system in the fast stage of dark matter halo.
+        <strong>Right</strong>: A schematic diagram showing the distribution of specific angular momentum (sAM)
+        for gas clouds within a halo. The turbulent motion of gas clouds, 
+        driven by fast accretion, yields a broad and uniform distribution 
+        (red curve) of sAM. The fraction of gas accreted by the 
+        SMBH (gray shaded area) is determined by the maximum capturing 
+        angular momentum (see Paper-I).
+      </div>
+    </div>
+</div>
+
+<div align="center" style="margin-top: 25px;">
+    <div>
+      <img width="800px" src="https://raw.githubusercontent.com/ChenYangyao/two-phase-galaxy-model/master/site-info/highlights/gc-channels.jpg"/>
+    </div>
+    <div style="margin: 3px 10%; padding: 5px 0; background-color: rgba(0, 136, 255, 0.1);">
+      <div> <strong>The two-channels of GC formation</strong> </div>
+      <div>
+        <strong>Left</strong>: The distribution of modeled GCs in a MW-size system at z=0.
+        <strong>Right</strong>: The criteria for the active formation of Pop-I (red, metal-rich) and Pop-II (blue, metal-poor) GCs
+        in the halo mass-redshift plane (See Paper-III).
+      </div>
+    </div>
+</div>
+
+
+<div align="center" style="margin-top: 25px;">
+  <div>
+    <img width="45%" src="https://raw.githubusercontent.com/ChenYangyao/two-phase-galaxy-model/master/site-info/highlights/tpcf.jpg"/>
+  </div>
+  <div style="margin: 3px 10%; padding: 5px 0; background-color: rgba(0, 136, 255, 0.1);">
+    <div><strong>Cosmic structures traced by GC clustering over > 7 orders of magnitude in spatial extent</strong></div> 
+    <div> Two-point auto-correlation functions of 
+          GCs at z=0 predicted by the model in this work 
+          and the corresponding gas process and cosmic structure at each hierarchy (See Paper-III). 
+    </div>
+  </div>
+</div>
+
 
 ## Acknowledgements
 
