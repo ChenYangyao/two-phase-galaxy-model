@@ -29,7 +29,7 @@ import two_phase_galaxy_model as tpgm
 and then work with it.
 
 Examples can be found in the Jupyter notebooks under `docs/`:
-- [star_cluster_model.ipynb](docs/star_cluster_model.ipynb): demonstrates how to define a dark-matter-only subhalo merger tree, pass it to the model, and get the list of galaxies and star clusters.
+- [star_cluster_model.ipynb](docs/star_cluster_model.ipynb): demonstrates how to define a dark-matter-only subhalo merger tree, pass it to the model, and get the list of galaxies and star clusters. It also includes a realistic example for working on a subhalo merger tree of IllustrisTNG simulation.
 
 ## Publications
 
